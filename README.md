@@ -30,7 +30,7 @@ Before you begin, ensure you have the following installed:
 3.  **Generate SSH Key**: A `.pem` file named `wireguard-relay.pem` is expected for SSH access to the EC2 instance. If you don't have one, you can generate a new key pair and place it in the root of this repository, or update `main.tf` to use an existing key pair.
 
     ```bash
-    ssh-keygen -t rsa -b 4096 -f wireguard-relay.pem
+    ssh-keygen -t ecdsa -b 521 -f wireguard-relay.pem
     chmod 400 wireguard-relay.pem
     ```
 
