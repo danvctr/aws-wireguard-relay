@@ -48,7 +48,7 @@ Before you begin, ensure you have the following installed:
 
 After successful deployment, Terraform will output the public IP address of your WireGuard relay. The `install_wireguard.sh` script handles the server-side configuration. You can then SSH in and configure your WireGuard client to connect to this relay.
 
-If you have a static IP for your management computer, you can uncomment the "my_ip" section in variables.tf and in the ingress rules of main.tf to have a more enviroment.
+If you have a static IP for your management computer, you can uncomment the "my_ip" section in variables.tf and in the ingress rules of main.tf to have a more secure enviroment.
 
 ## Files
 
